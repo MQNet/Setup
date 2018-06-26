@@ -1,4 +1,4 @@
-# Setup
+# Setup Programming Enviroment for .NET programming MacroQuest
 
 ## First Thread Introducing .NET / C# Plugin and "Program" API
 
