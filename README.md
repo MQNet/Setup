@@ -13,4 +13,9 @@ https://www.redguides.com/forums/threads/65606-NET-C-Plugin-and-quot-Program-quo
   * New Project -> Class Library(.NET Standard (Framework adds more cruft but should work too))
   * Project -> Add Reference MQ2DotNet.dll ONLY! NetLoader is not needed at this step
   * Write Your program per example given in OG thread
-  * Build Solution
+  * Build Solution as Release
+  * copy from project/bin/release all .dll files to /MQ2/Release folder
+  * also copy MQ2DotNetLoader.dll to same  /Release
+  * Load EQ instance and MQ2
+  * /plugin mq2dotnetloader
+  * /netrun MyProg (omit .dll extension)
