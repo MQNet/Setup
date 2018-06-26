@@ -7,3 +7,7 @@ https://www.redguides.com/forums/threads/65606-NET-C-Plugin-and-quot-Program-quo
 1. Download Visual Studio (2017) Community
   * https://visualstudio.microsoft.com/ -> Visual Studio IDE
   * Select .net development when installing (other options up to you)
+  * Launch Visual Studio 
+  * Register for Microsoft Account if you do not have one (including passing CAPTCHA)
+  * Upon Sign In choose C# Enviroment and color scheme of your choice
+  * New Project -> Class Library(.NET Standard or Framework? )
