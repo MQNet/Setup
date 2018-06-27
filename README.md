@@ -16,7 +16,8 @@ https://www.redguides.com/forums/threads/65606-NET-C-Plugin-and-quot-Program-quo
   * Build Solution as Release
   * copy from project/bin/release all .dll files to /MQ2/Release folder
   * Might want to put a Post-Build Event in Project -> ProjectName Properties -> Build Events:
-    ##### copy /Y "$(TargetDir)$(ProjectName).dll" "C:\mymq2releasefolder\$(ProjectName).dll"
+    ##### copy /Y "$(TargetDir)$(ProjectName).dll" "C:\\mymq2releasefolder\\$(ProjectName).dll"
+    This will automatically copy your compiled .dll to your release folder upon each Build Event
   
   * also copy MQ2DotNetLoader.dll to same  /Release
   * Load EQ instance and MQ2
